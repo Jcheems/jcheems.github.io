@@ -46,7 +46,7 @@ to capture the subject’s responses and record them via sensor transmission to 
 computer terminal.
 
 <div align="center">
-    <img src="./assets/images/prototype.png" width="300px" display="inline"> 
+    <img src="./assets/images/prototype.png" width="600px" display="inline"> 
     <div>
         <p>smart insoles</p>
     </div>
