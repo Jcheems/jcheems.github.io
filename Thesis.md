@@ -63,7 +63,7 @@ record the results. The response speed of the participants is measured under
 noise reduction, soothing background sound and high background sound as follows.
 
 <div align="center">
-    <img src="./assets/images/Eye-hand experiment data.png" width="300px" display="inline"> 
+    <img src="./assets/images/Eye-hand experiment data.png" width="600px" display="inline"> 
     <div>
         <p>Eye-hand experiment data</p>
     </div>
@@ -86,7 +86,7 @@ time to the simulated terrain change.
 
 ## Result
 <div align="center">
-    <img src="./assets/images/result.png" width="300px" display="inline"> 
+    <img src="./assets/images/result.png" width="600px" display="inline"> 
     <div>
         <p>VR scene experiment data</p>
     </div>
