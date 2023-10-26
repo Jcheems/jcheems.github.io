@@ -77,6 +77,13 @@ the participant to respond is recorded. From the frame in the program when the
 mouse is released to give the command, to the end of the frame when the subject gives the signal. The time in between will be used as the subject’s reaction
 time to the simulated terrain change.
 
+<div align="center">
+    <img src="./assets/images/scene.png" width="300px" display="inline"> 
+    <div>
+        <p>VR scene</p>
+    </div>
+</div>
+
 ## Result
 <div align="center">
     <img src="./assets/images/result.png" width="300px" display="inline"> 
