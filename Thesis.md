@@ -24,7 +24,7 @@ the images of the subject during the experiment and to assist in determining the
 reaction time data.
 
 <div align="center">
-    <img src="iPhone12.jpg" width="300px" display="inline"> 
+    <img src="iphone12pro.jpg" width="300px" display="inline"> 
     <div>
         <p>iPhone12</p>
     </div>
@@ -34,7 +34,7 @@ The air pods pro is used to create different sound environments for
 the purpose of controlling variables.
 
 <div align="center">
-    <img src="air pods pro.jpg" width="300px" display="inline"> 
+    <img src="airpods.jpg" width="300px" display="inline"> 
     <div>
         <p>Air pods pro</p>
     </div>
@@ -46,7 +46,7 @@ to capture the subject’s responses and record them via sensor transmission to 
 computer terminal.
 
 <div align="center">
-    <img src="smart insoles.jpg" width="300px" display="inline"> 
+    <img src="prototype.png" width="300px" display="inline"> 
     <div>
         <p>smart insoles</p>
     </div>
