@@ -8,4 +8,4 @@ tactile response time to the foot than the eye-hand response. Moreover, the diff
 the foot than the eye-hand response.
 
 ## Paper
-More details please take a look at：<a href="https://github.com/Jcheems/Jcheems.github.io/paper.pdf" target="_blank">Thesis Paper.</a>
+More details please take a look at：<a href="./paper.pdf" target="_blank">Thesis Paper.</a>
