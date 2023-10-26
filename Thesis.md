@@ -97,6 +97,7 @@ respond. The RT column is calculated from the Start column and the Respond
 column. Since the video is captured at 60 frames, the reaction time is given by
 the following equation.
 
-$RT(ms)=(Reaction-Start)*1000(ms)/60$
+$$RT(ms)=(Reaction-Start)*1000(ms)/60$$
+
 ## Paper
 More details please take a look at：<a href="./paper.pdf" target="_blank">Thesis Paper.</a>
