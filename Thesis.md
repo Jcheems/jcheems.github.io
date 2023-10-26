@@ -13,7 +13,7 @@ is created and packaged into the head display through the unity engine, thanks
 to the advantages of the meta quest pro all-in-one.
 
 <div align="center">
-    <img src="Meta quest pro.jpg" width="300px" display="inline"> 
+    <img src="./assets/images/Meta quest pro.jpg" width="300px" display="inline"> 
     <div>
         <p>Meta quest pro</p>
     </div>
@@ -34,7 +34,7 @@ The air pods pro is used to create different sound environments for
 the purpose of controlling variables.
 
 <div align="center">
-    <img src="airpods.jpg" width="300px" display="inline"> 
+    <img src="./assets/images/airpods.jpg" width="300px" display="inline"> 
     <div>
         <p>Air pods pro</p>
     </div>
@@ -46,7 +46,7 @@ to capture the subject’s responses and record them via sensor transmission to 
 computer terminal.
 
 <div align="center">
-    <img src="prototype.png" width="300px" display="inline"> 
+    <img src="./assets/images/prototype.png" width="300px" display="inline"> 
     <div>
         <p>smart insoles</p>
     </div>
