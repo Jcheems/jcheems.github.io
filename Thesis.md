@@ -57,7 +57,7 @@ computer terminal.
 The experiment was divided into a simple reaction test and a VR scene reaction test.
 
 ### Simple Reaction Test
-The experiment is conducted on the Human Benchmark website<a href="https://humanbenchmark.com" target="_blank">[Thesis Paper.](https://humanbenchmark.com)</a> The experiment will be conducted five times
+The experiment is conducted on the Human Benchmark website<a href="https://humanbenchmark.com" target="_blank">(https://humanbenchmark.com).</a> The experiment will be conducted five times
 and the final results will be averaged. Participants will be tested under three different sound conditions while wearing headphones, and the experimenter will
 record the results. The response speed of the participants is measured under
 noise reduction, soothing background sound and high background sound as follows.
