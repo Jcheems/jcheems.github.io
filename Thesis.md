@@ -24,7 +24,7 @@ the images of the subject during the experiment and to assist in determining the
 reaction time data.
 
 <div align="center">
-    <img src="./assets/images/iphone12pro.jpg" width="300px" display="inline"> 
+    <img src="./assets/images/iphone12 pro.jpg" width="300px" display="inline"> 
     <div>
         <p>iPhone12</p>
     </div>
