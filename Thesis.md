@@ -70,15 +70,15 @@ noise reduction, soothing background sound and high background sound as follows.
 </div>
 
 ### VR Scene Reaction Test
-Participants wear VR equipment and adjust the level of comfort and pupil distance to ensure they can clearly see the scene inside the helmet. Participants put
-on the insoles, wear the headset, and start walking back and forth along the corridor after the experimenter sets up the phone and starts recording. Instructions
+Participants wear VR equipment and adjust the level of comfort and pupil distance to ensure they can clearly see the scene inside the helmet. Participants put
+on the insoles, wear the headset, and start walking back and forth along the corridor after the experimenter sets up the phone and starts recording. Instructions
 are given to the insoles via keystrokes on the computer, and the time it took for
 the participant to respond is recorded. From the frame in the program when the
 mouse is released to give the command, to the end of the frame when the subject gives the signal. The time in between will be used as the subject’s reaction
 time to the simulated terrain change.
 
 <div align="center">
-    <img src="./assets/images/scene.png" width="300px" display="inline"> 
+    <img src="./assets/images/scene.png" width="800px" display="inline"> 
     <div>
         <p>VR scene</p>
     </div>
