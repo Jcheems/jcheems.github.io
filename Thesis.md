@@ -7,5 +7,5 @@ of previous studies. Finally we find that most participants have a much slower
 tactile response time to the foot than the eye-hand response. Moreover, the different sound conditions bring about a greater effect on the tactile response of
 the foot than the eye-hand response.
 
-
+## Paper
 More details please take a look at：<a href="https://github.com/Jcheems/Jcheems.github.io/paper.pdf" target="_blank">Thesis Paper.</a>
