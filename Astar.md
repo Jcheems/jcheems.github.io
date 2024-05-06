@@ -1,6 +1,6 @@
 # Astar Algorithm path planner
 ## Introduction
-The algorithm is mainly implemented in pathplanner.py and called by gui.py. The programme uses four directions (up, down, left, right) for path calculation.
+The algorithm is mainly implemented in pathplanner.py and called by gui.py. The programme uses four directions (up, down, left, right) for path calculation. Obstacles are indicated by black squares. When a path is found, a blue path is shown in the gui connecting a green start point to a red end point.
 <div align="center">
     <img src="./assets/images/Astar.gif" width="300px" display="inline"> 
     <div>
@@ -8,8 +8,17 @@ The algorithm is mainly implemented in pathplanner.py and called by gui.py. The 
     </div>
 </div>
 
-## Code ExplanationThis
-Python code defines a function 'do_a_star' which implements the A* search algorithm for pathfinding on a grid. The function takes a grid, start and end points, and a function for displaying messages. Here's a step-by-step breakdown of what this code does:
+## No path found
+When no path is found, no path is planned and an error message is displayed in the window.
+<div align="center">
+    <img src="./assets/images/nopath.png" width="300px" display="inline"> 
+    <div>
+        <p>No path found</p>
+    </div>
+</div>
+
+## Code Explanation
+This Python code defines a function 'do_a_star' which implements the A* search algorithm for pathfinding on a grid. The function takes a grid, start and end points, and a function for displaying messages. Here's a step-by-step breakdown of what this code does:
 
 ### Initialization:
 Retrieve the dimensions of the grid (COL and ROW).
@@ -37,4 +46,34 @@ Establish f_score dictionary to store the estimated total cost from the start no
     f_score[start] = ((start[0] - end[0]) ** 2 + (start[1] - end[1]) ** 2)**0.5  # Heuristic for the start node
     
     open_list.append((f_score[start], start))  # Add the start node to the open list
+```
+
+###Processing Loop:
+Continuously loop until there are no more nodes to evaluate in the open_list.
+Select the node in open_list with the lowest f score, make it the current node, and remove it from open_list.
+Check if the current node is the end node. If it is, backtrack using the came_from dictionary to construct the path from start to end, display messages, and return the path.
+Add the current node to the closed_list as it has been evaluated.
+
+```python
+        while open_list:
+        # Select the node in open_list with the lowest f score value
+        current = min(open_list, key=lambda x: x[0])[1]
+        open_list = [x for x in open_list if x[1] != current]  # Remove the current node from open list
+        
+        # Check if the current node is the end node
+        if current == end:
+            path = []  # Store the path from start to end
+            while current in came_from:
+                path.append(current)
+                current = came_from[current]  # Traverse back from end to start
+            path.append(start)  # Add the start node to the path
+            path.reverse()  # Reverse the path to get it in correct order
+
+            # Display debug messages
+            display_message("Path points successfully created")
+            display_message("Start location is " + str(start))
+
+            return path  # Return the path
+        
+        closed_list.add(current)  # Mark the current node as evaluated
 ```
