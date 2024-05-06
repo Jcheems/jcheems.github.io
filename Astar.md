@@ -17,7 +17,8 @@ Initialize open_list to store nodes that need to be evaluated and closed_list to
 Define came_from dictionary to track the path taken to reach each node.
 Set up g_score dictionary to store the cost from the start node to every other node, initializing all values to infinity, except the start node which is set to zero.
 Establish f_score dictionary to store the estimated total cost from the start node to the end through each node, initializing all values to infinity. The heuristic used is the Euclidean distance between the current node and the end node.
-    ```python
+
+```Python
     # Get grid dimensions
     COL = len(grid)
     ROW = len(grid[0])
@@ -36,4 +37,4 @@ Establish f_score dictionary to store the estimated total cost from the start no
     f_score[start] = ((start[0] - end[0]) ** 2 + (start[1] - end[1]) ** 2)**0.5  # Heuristic for the start node
     
     open_list.append((f_score[start], start))  # Add the start node to the open list
-    ```
+```
