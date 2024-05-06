@@ -33,7 +33,7 @@ Before testing the manipulator, a simulation is performed. However, although the
 <div align="center">
     <img src="./assets/images/object_detection.png" width="500px" display="inline"> 
     <div>
-        <p>Meta quest pro</p>
+        <p>Object detection</p>
     </div>
 </div>
 
@@ -42,7 +42,7 @@ After determining the optimal working range of the manipulator, I need to work w
 <div align="center">
     <img src="./assets/images/detection and grasping.png" width="500px" display="inline"> 
     <div>
-        <p>Meta quest pro</p>
+        <p>Detection and grasping</p>
     </div>
 </div>
 
