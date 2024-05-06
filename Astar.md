@@ -1,6 +1,6 @@
 # Astar Algorithm path planner
 ## Introduction
-The algorithm is mainly implemented in pathplanner.py and called by gui.py. The programme uses four directions (up, down, left, right) for path calculation. Obstacles are indicated by black squares. When a path is found, a blue path is shown in the gui connecting a green start point to a red end point.
+The algorithm is mainly implemented in [pathplanner.py](https://github.com/Jcheems/jcheems.github.io/blob/master/assets/pathPlanner.py) and called by [gui.py](https://github.com/Jcheems/jcheems.github.io/blob/master/assets/gui.py). The programme uses four directions (up, down, left, right) for path calculation. Obstacles are indicated by black squares. When a path is found, a blue path is shown in the gui connecting a green start point to a red end point. You can visit the source code by clicking their name.
 <div align="center">
     <img src="./assets/images/Astar.gif" width="500px" display="inline"> 
     <div>
