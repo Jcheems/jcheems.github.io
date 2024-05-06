@@ -2,7 +2,7 @@
 ## Introduction
 The algorithm is mainly implemented in pathplanner.py and called by gui.py. The programme uses four directions (up, down, left, right) for path calculation. Obstacles are indicated by black squares. When a path is found, a blue path is shown in the gui connecting a green start point to a red end point.
 <div align="center">
-    <img src="./assets/images/Astar.gif" width="300px" display="inline"> 
+    <img src="./assets/images/Astar.gif" width="500px" display="inline"> 
     <div>
         <p>Example</p>
     </div>
@@ -11,7 +11,7 @@ The algorithm is mainly implemented in pathplanner.py and called by gui.py. The 
 ## No path found
 When no path is found, no path is planned and an error message is displayed in the window.
 <div align="center">
-    <img src="./assets/images/nopath.png" width="300px" display="inline"> 
+    <img src="./assets/images/nopath.png" width="500px" display="inline"> 
     <div>
         <p>No path found</p>
     </div>
