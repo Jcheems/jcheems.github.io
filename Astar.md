@@ -48,7 +48,7 @@ Establish f_score dictionary to store the estimated total cost from the start no
     open_list.append((f_score[start], start))  # Add the start node to the open list
 ```
 
-###Processing Loop:
+### Processing Loop:
 Continuously loop until there are no more nodes to evaluate in the open_list.
 Select the node in open_list with the lowest f score, make it the current node, and remove it from open_list.
 Check if the current node is the end node. If it is, backtrack using the came_from dictionary to construct the path from start to end, display messages, and return the path.
@@ -76,4 +76,49 @@ Add the current node to the closed_list as it has been evaluated.
             return path  # Return the path
         
         closed_list.add(current)  # Mark the current node as evaluated
+```
+### Exploring Neighbors:
+For each neighboring node in four possible directions (up, down, left, right), calculate its position.
+Ensure that the neighbor is within the grid bounds and is traversable (the grid value must be 1, which typically means passable terrain).
+If the neighbor is already in the closed_list, skip it.
+Calculate a tentative g score as the g score of the current node plus the cost to move to the neighbor (assumed to be 1 for adjacent nodes).
+If the neighbor is not in open_list, update came_from, g_score, and f_score, and add the neighbor to open_list.
+If already in open_list but found a better path (lower g score), update came_from, g_score, f_score, and adjust its position in the open_list.
+
+```python
+            # Check nodes in four directions(up, down, left, right)
+        for direction in [(0, 1), (1, 0), (0, -1), (-1, 0)]:
+            neighbor = (current[0] + direction[0], current[1] + direction[1])
+            
+            # Ensure neighbor is within grid bounds and is traversable (grid value of 1)
+            if (0 <= neighbor[0] < COL) and (0 <= neighbor[1] < ROW) and grid[neighbor[0]][neighbor[1]] == 1:
+                if neighbor in closed_list:  # Skip if neighbor is already evaluated
+                    continue
+                
+                tentative_g_score = g_score[current] + 1  # Tentative g score
+                
+                # Discover a new node or find a better path to an already discovered node
+                if neighbor not in [x[1] for x in open_list]:
+                    came_from[neighbor] = current  # Update director
+                    g_score[neighbor] = tentative_g_score  # Update g score
+                    f_score[neighbor] = g_score[neighbor] + ((neighbor[0] - end[0]) ** 2 + (neighbor[1] - end[1]) ** 2)**0.5  # Update f score
+                    open_list.append((f_score[neighbor], neighbor))  # Add neighbor to open list
+                elif tentative_g_score < g_score[neighbor]:  # Check if this path to neighbor is better than previously found
+                    came_from[neighbor] = current  # Update director
+                    g_score[neighbor] = tentative_g_score  # Update g score
+                    f_score[neighbor] = g_score[neighbor] + abs(neighbor[0] - end[0]) + abs(neighbor[1] - end[1])  # Update f score
+
+                    # Update the neighbor node in the open list with the new f score
+                    open_list = [(f, pos) for f, pos in open_list if pos != neighbor]
+                    open_list.append((f_score[neighbor], neighbor))
+```
+
+### Completion:
+If the open_list is empty and no path has been found, display a message indicating no path was found, display the start location, and return an empty list.
+
+```python
+    # If the loop finishes without returning a path, no path was found
+    display_message("No path found")
+    display_message("Start location is " + str(start))
+    return []  # Return an empty path if no path is found
 ```
