@@ -10,7 +10,7 @@ You can find detailed description for each project by clicking the preview on my
 Feel free to reach out to me via [Wenjie Zhao's E-mail](jack777zhao@163.com) if you have any questions or if you would like to collaborate on a project.
 
 - **Email**: [jack777zhao@163.com](jack777zhao@163.com)
-- **LinkedIn**: [https://www.linkedin.com/in/%E6%96%87%E6%9D%B0-%E8%B5%B5-7bb502282/](https://www.linkedin.com/in/%E6%96%87%E6%9D%B0-%E8%B5%B5-7bb502282/)
-- **Personal Website**: [https://jcheems.github.io/#](https://jcheems.github.io/#)
+- **LinkedIn**: [LikedIn](https://www.linkedin.com/in/%E6%96%87%E6%9D%B0-%E8%B5%B5-7bb502282/)
+- **Personal Website**: [MyPorfolio](https://jcheems.github.io/#)
 
 Thank you for visiting my GitHub profile!
