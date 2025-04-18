@@ -46,5 +46,8 @@ After determining the optimal working range of the manipulator, I need to work w
     </div>
 </div>
 
+<video src='https://github.com/user-attachments/assets/850e8052-add1-40c3-94e8-9327034d4071' width=180/>
+
+
 ## Team git
 To get more details about my work, please visit [manipulator-control](https://github.com/Team-7-UOM/Manipulator-Control)
