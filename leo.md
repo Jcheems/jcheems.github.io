@@ -41,13 +41,18 @@ After determining the optimal working range of the manipulator, I need to work w
 
 <div align="center">
     <img src="./assets/images/detection and grasping.png" width="500px" display="inline"> 
+    <video src='https://github.com/user-attachments/assets/850e8052-add1-40c3-94e8-9327034d4071' width=180/>
     <div>
         <p>Detection and grasping</p>
     </div>
 </div>
 
-<video src='https://github.com/user-attachments/assets/850e8052-add1-40c3-94e8-9327034d4071' width=180/>
-
 
 ## Team git
+
+The last video
+<div align="center">
+  <video src='https://github.com/user-attachments/assets/f637c928-fb51-4673-b25d-bb0041735ce9' width=180/>
+</div>
+
 To get more details about my work, please visit [manipulator-control](https://github.com/Team-7-UOM/Manipulator-Control)
